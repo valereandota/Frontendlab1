@@ -1,10 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+    th {
+        color: blue
+    }
+
     table,
     th,
     td {
         border: 1px solid red;
+    }
+
+    .content {
+        margin-left: 420px;
+        margin-right: 420px;
     }
 </style>
 
@@ -16,13 +25,11 @@
 </head>
 
 <body>
-    <h1 align=center>Hello World! My name is Tom The Bomb</h1>
-    <center>
+    <div class="content" align="center">
+        <h1 align=center>Hello World! My name is Tom The Bomb</h1>
         <img src="https://media.discordapp.net/attachments/527910583295803396/938448860756476024/border.png?width=679&height=676"
-            width="400" height="400" />
-    </center>
-
-    <center>
+            width="400" height="400" align=center />
+        <br>
         <table>
             <thead>Personal Media Biography</thead>
             <tbody>
@@ -126,7 +133,14 @@
                 </tr>
             </tbody>
         </table>
-    </center>
+        <br>
+        <div class="summary" align="left">
+            <h1 align="auto">Summary</h1>
+            <p>The story of a young man who was required to work with MySQL. Throughout his experience, he slowly but
+                surely
+                loses it all. He may or may not blow up.</p>
+        </div>
+    </div>
 </body>
 
 </html>
